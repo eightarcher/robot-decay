@@ -1,0 +1,35 @@
+public class quartiles {
+
+    public static void main(String args[]){
+        int[] arrA = getArray();
+        int[] arrB = slapChop(int[] arrA, true);
+        int[] arrC = slapChop(int[] arrA, false);
+
+        System.out.println(mediouso(arrB));
+        System.out.println(mediouso(arrA));
+        System.out.println(mediouso(arrC));
+
+
+
+    }
+
+    public static int[] getArray(){
+        //system.in goes here
+        return(//somebullshit);
+    }
+
+    public static int[] slapChop(){
+        //method takes an array of n length and returns one of two arrays of 1/2n length (front or back halves)
+        return (//somemore bullshit);
+    }
+
+    public static int mediouso(int[] half){
+        //method takes array and returns the median value
+        int l = half.length/2
+        if (half.length % 2 == 0){
+            return ((half[l]+half[l-1])/2);
+        }
+        return (//median value)
+    }
+
+}
